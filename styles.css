@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    color: #521B28;
+}
+
+title {
+    display: none;
+}
+
+form {
+    
+    background-color: #EA93A7;
+    border-radius: 15px;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid 1px #521B28;
+}
+
+.separacao {
+    margin-bottom: 15px;
+}
+
+.abc {
+    display: block;
+    background-color:  #f0c2cd;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.form-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #521B28;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+    color: #521B28;
+}
+
+textarea {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color:  #f0c2cd;
+    border: 1px solid #EA93A7;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.check-social {
+    font-size: 16px;
+    display: inline-flex;   
+}
+
+.check-social input {
+    margin-left: 8px;
+}
+
+.sexo {
+    font-size: 16px;
+    display: inline-flex;
+}
+
+.sexo input{
+    margin-left: 8px;
+}
+
+.eye-colors {
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+}
+
+button {
+    display: inline;
+    cursor: pointer;
+    background-color: crimson;
+    border: 1px solid #EA93A7;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
